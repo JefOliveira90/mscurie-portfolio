@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&subset=latin-ext');
+
+body {
+    background-color: #121314;
+    color:#ff9ecb;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    background: url(https://media.tenor.co/images/ea862c2c1781bb4233ef774f8dfe7f19/tenor.gif) center/200px repeat;
+}
+.contact-page{
+  display: contents;
+  position: fixed;
+}
+
+.page-content {
+  border: 12px dotted #ffd9bf;
+  margin-top: 6%;
+  display: flex;
+  flex-direction: flex-start;
+align-content: center;
+    width: 100%;
+    max-width: 1000px;
+    background-color: #a5ddff;
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgba(0,0,0,.2);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content {
+    position: relative;
+    overflow: auto;
+    height: 320px;
+} 
+
+h2 {
+    font-size: 1.6em;
+    font-weight: 300;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    border-bottom: 12px dotted #ffd9bf;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+ 
+}
+
+.projects-list {
+    list-style: inherit;
+    padding: 8px;
+    margin: 4px;
+    display: grid;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+  float: initial;
+}
+
+.project-item > a {
+    background-color: 
+#b1b3b0;
+    border: 10px solid pink;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    display: flex;
+  flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.project-item > a:hover {
+    background-color: white;
+    border-color: pink;
+    color: gray;
+}
+
+.project-item > a > .img-wrap {
+    height: 80%;
+    width: 100%;
+    background: no-repeat center/cover;
+}
+
+.project-item > a > .desc {
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+}
+.skills{
+  .html {width: 90%; background-color: #4CAF50;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.php {width: 60%; background-color: #808080;} /* Dark Grey */
+   text-align: center; /* Right-align text */
+  padding: 10px; /* Add some padding */
+  color: white; /* White text color */
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
