@@ -1,50 +1,86 @@
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-<main class="page-content">
-   <div class="container-fluid text-center">
-        <header>
-            <h2>These are my projects</h2>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gabrielle Pereira - Webdeveloper</title>
+    <meta name="theme-color" content="#6000ff">
+
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet"> 
+
+    <link href="styles/common.css" rel="stylesheet">
+    <link href="styles/header.css" rel="stylesheet">
+    <link href="styles/footer.css" rel="stylesheet">
+    <link href="styles/body-container.css" rel="stylesheet">
+    <link href="styles/portfolio.css" rel="stylesheet">
+    
+    <link href="styles/common-mobile.css" rel="stylesheet" media="(max-width: 768px)">
+    <link href="styles/header-mobile.css" rel="stylesheet" media="(max-width: 768px)">
+    <link href="styles/footer-mobile.css" rel="stylesheet" media="(max-width: 768px)">
+    <link href="styles/body-container-mobile.css" rel="stylesheet" media="(max-width: 768px)">
+    <link href="styles/portfolio-mobile.css" rel="stylesheet" media="(max-width: 768px)">
+
+    <script src="js/script.js" defer="true"></script>
+</head>
+<body>
+    <main class="body-container">
+        <!-- Cabeçalho -->
+        
+        <header class="page-header">
+            <a href="#" class="link">
+                <img class="profile-img" src="imgs/profile-img.png">
+            </a>
+            <aside class="profile-desc">
+                <h1 class="greetings">Hi!</h1>
+                <h2 class="desc">My name is Gabrielle<br/>and I am a webdeveloper</h2>
+            </aside>
         </header>
-     <div class="page-contact">
-     <section>
-          <p> This is how you can talk to me!</p>
-   <a href="https://www.facebook.com/profile.php?id=100024537491310"</a>
-         <ol class="fa-ol">
-        <i class="fab fa-facebook fa-9x"></i>
- <a href="https://codepen.io/mscurie/#"><i class="fab fa-codepen fa-9x"></i>
-   <a href="https://github.com/mscurie"><i class="fab fa-github fa-9x"></i>
-     </ol></section>
-        <div class="content my-projects">
-            <ul class="projects-list">
-                <li class="project-item">
-                    <a href="https://codepen.io/mscurie/pen/JwRoaq" target="_blank">
-                        <div class="img-wrap" style="background-image: url(https://vignette.wikia.nocookie.net/dragonballfanon/images/7/70/Random.png/revision/latest?cb=20161221030547)"></div>
-                        <div class="desc">Landing Page</div>
-                    </a>
-                </li>
-                
-                <li class="project-item">
-                    <a href="https://codepen.io/mscurie/pen/ZVWbmr" target="_blank">
-                        <div class="img-wrap" style="background-image: url(https://4.bp.blogspot.com/-9E0Gy10g1K8/UdBe0Jjx_PI/AAAAAAAADfs/NL3qUA3ut3A/s1205/Homer%27s+Brain.jpg)"></div>
-                        <div class="desc">Survey Form</div>
-                    </a>
-                </li>
-                
-                <li class="project-item">
-                    <a href="https://codepen.io/mscurie/pen/bjgQKw" target="_blank">
-                        <div class="img-wrap" style="background-image: url(https://i.pinimg.com/280x280_RS/af/e4/18/afe418f19b682fcefac7659634d1cace.jpg)"></div>
-                        <div class="desc">Tribute Page</div>
-                    </a>
-                </li>
-                
-                <li class="project-item">
-                    <a href="http://atocha.com.br/" target="_blank">
-                        <div class="img-wrap" style="background-image: url(https://static1.squarespace.com/static/5ac589eb8ab722aa77be2eeb/5b479b056d2a73336ed80ffe/5b50d290562fa7d2dabe2955/1532023444871/random_interactive_share.jpg?2)"></div>
-                        <div class="desc">Blog</div>
-                      <a href="https://github.com/mscurie/responsive-design" target=_blank>
-                        <div class="img-wrap" style="background-image: url(https://i.pinimg.com/280x280_RS/af/e4/18/afe418f19b682fcefac7659634d1cace.jpg)"></div><div class="desc">Responsive Design project</div>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</main>
+
+        <!-- Portfólio -->
+
+        <section class="page-portfolio">
+            <article class="entry prev" style="background-image: url(imgs/portfolio-mudev.jpg)">
+                <div class="gradient-overlay"></div>
+                <div class="info">
+                    <h1 class="title">Mudev</h1>
+                    <h3 class="desc">Developed the Mudev website</h3>
+                </div>
+            </article>
+            
+            <article class="entry current" style="background-image: url(imgs/portfolio-stripe.jpg)">
+                <div class="gradient-overlay"></div>
+                <div class="info">
+                    <h1 class="title">Stripe</h1>
+                    <h3 class="desc">Developed the Stripe website</h3>
+                </div>
+            </article>
+
+            <article class="entry next" style="background-image: url(imgs/portfolio-guerra-creativa.jpg)">
+                <div class="gradient-overlay"></div>
+                <div class="info">
+                    <h1 class="title">Guerra Creativa</h1>
+                    <h3 class="desc">Developed the Guerra Creativa website</h3>
+                </div>
+            </article>
+        </section>
+
+        <!-- Rodapé -->
+
+        <footer class="page-footer">
+            <div class="wave-line-treadmill">
+                <div class="slide">
+                    <img src="imgs/bottom-wave-line.svg" class="line pos-1">
+                    <img src="imgs/bottom-wave-line.svg" class="line pos-2">
+                </div>
+            </div>
+
+            <a href="#" class="home-page-link">
+                <img class="logo" src="imgs/logo.png" alt="mscurie logomarca" title="Gabrielle Pereira - Webdeveloper">
+            </a>
+        </footer>
+    </main>
+</body>
+</html>

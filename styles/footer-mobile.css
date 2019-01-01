@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.page-footer > .wave-line-treadmill {
+    height: 25px;
+}
+
+.page-footer > .home-page-link > .logo {
+    width: 120px;
+}

@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+.page-header {
+    position: relative;
+    margin-bottom: 56px;
+}
+
+.page-header > .link > .profile-img {
+    border: 3px solid #6000ff;
+    border-radius: 50%;
+    max-width: 60px;
+}
+
+.page-header > .profile-desc {
+    bottom: -29px;
+    left: -39px;
+    font-size: 0.9em;
+    width: 230px;
+}

@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.page-portfolio {
+    padding-top: 86%;
+    width: 90%;
+}
+
+.page-portfolio > .entry > .info {
+    padding: 1em;
+}
+
+.page-portfolio > .entry.current:hover {
+    transform: rotateY(-20deg) scale(1);
+}

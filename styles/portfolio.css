@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+.page-portfolio {
+    position: relative;
+    width: 100%;
+    max-width: 640px;
+    height: 0;
+    padding-top: 26%;
+    perspective: 2024px;
+}
+
+.page-portfolio > .entry {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+    border-radius: 5px;
+    background: #6000ff no-repeat center/cover;
+    transition: all 1s ease-in-out;
+}
+
+.page-portfolio > .entry > .gradient-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: -webkit-linear-gradient(bottom, white, #ffffff00);
+}
+
+.page-portfolio > .entry > .info {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 2em;
+}
+
+.page-portfolio > .entry > .info > .title {
+    margin: 0 0 5px;
+    color: #6000ff;
+    font-family: "Fredoka One", sans-serif;
+    font-size: 3.4em;
+    font-weight: normal;
+    line-height: 1;
+}
+
+.page-portfolio > .entry > .info > .desc {
+    margin: 0;
+    font-weight: normal;
+    line-height: 1.1;
+}
+
+.page-portfolio > .entry.prev {
+    transform: rotateY(20deg) scale(.7);
+    left: -70%;
+    z-index: 1;
+}
+.page-portfolio > .entry.prev:hover {
+    transform: rotateY(20deg) scale(.8);
+    opacity: .8;
+}
+.page-portfolio > .entry.prev.deep {
+    transform: scale(.4);
+    opacity: 0;
+    z-index: 0;
+}
+
+.page-portfolio > .entry.current {
+    transform: rotateY(-20deg) scale(1);
+    opacity: 1;
+    z-index: 2;
+}
+.page-portfolio > .entry.current:hover {
+    transform: rotateY(0deg) scale(1.2);
+}
+
+.page-portfolio > .entry.next {
+    transform: rotateY(20deg) scale(.7);
+    left: 80%;
+    z-index: 1;
+}
+.page-portfolio > .entry.next:hover {
+    transform: rotateY(20deg) scale(.8);
+    opacity: .8;
+}
+.page-portfolio > .entry.next.deep {
+    transform: scale(.4);
+    opacity: 0;
+    z-index: 0;
+}

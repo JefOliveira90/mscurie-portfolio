@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+.page-header {
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.page-header > .link > .profile-img {
+    border: 5px solid #6000ff;
+    border-radius: 50%;
+    max-width: 180px;
+}
+
+.page-header > .profile-desc {
+    line-height: 1.1;
+    font-weight: 300;
+    position: absolute;
+    transform: rotateZ(-4deg);
+    bottom: -45px;
+    left: -30px;
+    font-family: "Shadows Into Light", sans-serif;
+    font-size: 1.1em;
+    width: 230px;
+}
+
+.page-header > .profile-desc > .greetings {
+    color: #6000ff;
+    font-size: 2.5em;
+    font-weight: inherit;
+    margin: 0 0 10px;
+    letter-spacing: 5px;
+}
+
+.page-header > .profile-desc > .desc {
+    font-weight: inherit;
+    margin: 0;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}

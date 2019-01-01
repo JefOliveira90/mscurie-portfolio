@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@keyframes body-container-bg-anim {
+    from { background-position: 0 -400px }
+    to { background-position: 0 0 }
+}
+
+.body-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: -webkit-linear-gradient(-75deg, #6000ff30, #6000ff00 50%);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    animation: body-container-bg-anim 3s ease-out forwards;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
